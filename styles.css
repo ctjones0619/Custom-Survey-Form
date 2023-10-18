@@ -1,0 +1,57 @@
+.name{
+    width:85%;
+    padding:2px;
+    display:block;
+    text-align:center;
+    }
+    
+    body{
+      background-color:#3b3b44;
+      
+      
+    }
+    
+    .email{
+      width:85%;
+      display:block;
+      text-align:center;
+    }
+    .number{
+      text-align:center;
+      display:block;
+      width:85%;
+    }
+    .dropdown{
+      width:85%;
+      display:block;
+      text-align:center;
+      
+    }
+    fieldset{
+      border:none;
+      
+      
+    }
+    .button{
+      display:inline;
+      width:15%;
+      
+    }
+    legend{
+      text-align:center;
+    }
+    .round{
+      border-radius:5px;
+      background-color:#9c9add;
+      
+    }
+    .textarea{
+      width:25%;
+      height:50px;
+      background-color:#9c9add
+      
+    }
+    .review{
+        text-align: center;
+    }
+    

@@ -1,0 +1,58 @@
+
+    <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+      <h1 id="title">Survey Form</h1>
+      <p id="description">Please fill out this survey with all required information!</p>
+    
+    <body>
+      <form method="post" id="survey-form">
+        <label id="name-label"  class="name" for="name">Name:</label>
+        <input  placeholder="your name" class="name round" id="name" required></input>
+  
+        <label class="email" id="email-label" for="email">Email:</label>
+        <input  placeholder="your email" class="email round" id="email" required type="email"></input>
+  
+         <label class="number" id="number-label" for="number">Age(optional):</label>
+         <input placeholder="12" class="number round" id="number" type="number" min="12" max="120"></input>
+         <label class="dropdown" for="dropdown">How did you hear about our website?</label>
+         <select class="dropdown" id="dropdown">
+            <option>(select one)</option>
+            <option>A friend</option>
+            <option>A co-worker</option>
+            <option>Family member</option>
+            <option>Stumbled upon it </option>
+            <option>Looked it up</option>
+            <option>Other/NA</option>
+  
+         </select>
+         <fieldset id="buttons">
+          <legend> Would you reccomend freecodecamp to a friend?</legend>
+           <input class="button" name="button" id="yes" value="yes" id="yes"type="radio">Yes</input>
+           <input class="button" name="button" id="maybe" value="maybe"id="maybe" type="radio">Maybe</input>
+           <input class="button" name="button" id="no" value="no" id="no" type="radio">No</input>
+           
+         </fieldset>
+         <fieldset>
+           <legend>Tell us about your experience!</legend>
+    <textarea class="textarea"></textarea>
+         </fieldset>
+         <fieldset>
+           <legend>Please leave us a review on <a href="yelp.com">yelp!</a></legend>
+            <input class="review" value="sure"type="checkbox">Sure, no problem!</input>
+            <input class="review" value="no thanks" type="checkbox">No thanks!</input>
+  
+         </fieldset>
+         <fieldset>
+    </fieldset>
+  
+         <input class="submit" id="submit" type="submit"></input>
+        
+  
+      </form>
+    </body>
+    </html>
